@@ -26,3 +26,9 @@ def mode(numbers):
       max_count = count
 
   return mode
+
+def mean(numbers):
+  sum_of_numbers = 0
+  for number in numbers:
+    sum_of_numbers += number
+  return sum_of_numbers / len(numbers)
